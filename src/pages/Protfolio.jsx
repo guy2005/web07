@@ -1,10 +1,13 @@
+import React from 'react'
 import NavBar from "../components/Navbar";
+
 function Protfolio() {
-  const cc = { color: "yellow" };
-  return   
-  <div>
-    <NavBar cc={cc}/>
-  </div>;
+  const pc = { color: "yellow" };
+  return (
+    <div>
+      <NavBar pc={pc} />
+    </div>
+  );
 }
 
 export default Protfolio;

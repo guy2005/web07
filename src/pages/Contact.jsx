@@ -1,11 +1,12 @@
-import NavBar from "../components/Navbar";
-
+import React from 'react'
+import Navbar from '../components/Navbar'
 function Contact() {
-  const pc = { color: "yellow" };
-  return 
+  const cc = { color: "yellow" };
+  return (
     <div>
-        <NavBar pc={pc}/>
+      <Navbar cc={cc} />
     </div>
-};
+  )
+}
 
-export default Contact;
+export default Contact
