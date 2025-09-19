@@ -4,7 +4,7 @@ function Navbar({ hc , ac , pc , cc}) {
   return (
     <div className="flex justify-around items-center bg-black text-white py-10"> 
       <h1 className="text-3xl font-bold">
-        NiniN SAU
+        ดูเมะ
       </h1>
       <Link style={hc} to="/">Home</Link>
       <Link style={ac} to="/about">About</Link>

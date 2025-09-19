@@ -1,8 +1,10 @@
 import React from 'react'
 import NavBar from "../components/Navbar";
-import img1 from './../assets/1.png'
-import Ar from './../assets/Ar.jpg'
 import {  FaGithub } from 'react-icons/fa';
+import Solo from './../assets/Solo.jpg'
+import Gojo from './../assets/Gojo.jpg'
+import Aqua from './../assets/Aqua.webp'
+import Arr from './../assets/Arr.jpg'
 function Protfolio() {
   const pc = { color: "yellow" };
   return (
@@ -15,35 +17,33 @@ function Protfolio() {
         <div className='flex items-center justify-center mt-10'>
             <div className='text-white ml-20 mb-40'>
                 <h1 style={{ fontFamily: 'Lora' }} className='text-5xl font-extrabold ml-5'>
-                  Protfolio
+                  เมะเรื่อง
                 </h1>
-                <img className='w-80 h-80 mt-10' src={Ar} alt="" />
+                <img className='w-80 h-90 mt-10' src={Solo} alt="" />
             </div>
 
             {/* เนื้อหา 1 */}
           <div className="w-3/5 flex flex-col h-full ml-30 mb-10">
             <p className="text-xl font-semibold mb-6 leading-relaxed mr-50 text-white text-center">
-              Developer based in Thailand
+              Solo Leveging
             </p>
 
             <div className='text-base leading-relaxed mt-6 mb-20 mr-10 text-white'>
-              Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Nesciunt rem odit labore unde nemo omnis sequi
-              hic sit laudantium repellendus recusandae vitae ea
-              laborum, ipsa nisi eos autem. Blanditiis consequuntur
-              velit nesciunt aperiam odit excepturi repellat libero in
-              enim praesentium! Ex dicta est suscipit ipsam
-              voluptate tempora voluptatum quam distinctio minus
-              saepe nobis nulla amet fugiat sit autem deserunt
-              asperiores vitae ea, libero sed! Libero fugit non,
-              placeat nulla quae odio asperiores ratione!
-              Accusantium placeat dolorem minus eos excepturi
-              modi.
+              โลกที่เกิด "เกต" เชื่อมมิติกับดันเจี้ยน และมนุษย์ที่มีพลังพิเศษเรียกว่า 
+              "ฮันเตอร์" พระเอก ซองจินอู ฮันเตอร์ที่อ่อนแอที่สุดในโลก 
+              ได้รับโอกาสครั้งที่สองจากระบบลึกลับที่ทำให้เขาสามารถ "เลเวลอัพ" 
+              ได้อย่างไร้ขีดจำกัด เพื่อก้าวขึ้นเป็นฮันเตอร์ที่แข็งแกร่งที่สุด
               <br />
               <div className='flex mt-14'>
-              <button className="ml-20 px-8 py-1 border border-white rounded-3xl text-white block">See More</button>
-              <FaGithub className='ml-25 w-11 h-11 text-4xl bg-black text-white ' />
-              <span className='ml-1 mt-3'>GitHub</span>
+              {/*<button className="ml-20 px-8 py-1 border border-white rounded-3xl text-white block">See More</button>*/}
+              <a href="https://www.google.com/search?q=https://www.netflix.com/th/title/81691129" className="ml-20 px-8 py-2 border-3 hover:underline hover:decoration-red-500 hover:decoration-3 border-red-500 rounded-4xl text-white block" target="_blank"> 
+              View netflix</a>
+
+              <a href="https://www.google.com/search?q=https://www.bilibili.tv/th/play/2099308" className="ml-20 px-8 py-2 border-3 hover:underline hover:decoration-blue-500 hover:decoration-3 border-blue-500 rounded-4xl text-white block" target="_blank"> 
+              View bilibili</a>
+              {/* <RiNetflixFill className='ml-25 w-11 h-11 text-4xl bg-black text-red ' />
+              <FaGithub className='ml-25 w-11 h-11 text-4xl bg-black text-white ' /> */}
+              {/* <span className='ml-1 mt-3'>GitHub</span> */}
               </div>
             </div>
           </div>               
@@ -55,27 +55,22 @@ function Protfolio() {
         <div className='flex items-center justify-center '>
           <div className="w-3/5 flex flex-col h-full ml-30 mb-20">
             <p className="text-xl font-semibold mb-6 leading-relaxed mr-50 text-white text-center">
-              Developer based in Thailand
+              Jujutsu ra Kaisen
             </p>
             
             <div className='text-base leading-relaxed mt-6 mb-20 mr-10 text-white'>
-              Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Nesciunt rem odit labore unde nemo omnis sequi
-              hic sit laudantium repellendus recusandae vitae ea
-              laborum, ipsa nisi eos autem. Blanditiis consequuntur
-              velit nesciunt aperiam odit excepturi repellat libero in
-              enim praesentium! Ex dicta est suscipit ipsam
-              voluptate tempora voluptatum quam distinctio minus
-              saepe nobis nulla amet fugiat sit autem deserunt
-              asperiores vitae ea, libero sed! Libero fugit non,
-              placeat nulla quae odio asperiores ratione!
-              Accusantium placeat dolorem minus eos excepturi
-              modi.
+              อิตาโดริ ยูจิ นักเรียนมัธยมปลายที่มีพละกำลังเหนือมนุษย์ ได้เข้าร่วม "ชมรมเรื่องเร้นลับ" และเข้าไปพัวพันกับวัตถุต้องสาป 
+              จนทำให้เพื่อนร่วมชมรมตกอยู่ในอันตราย เพื่อช่วยพวกเขา เขาตัดสินใจกลืนนิ้วต้องสาปซึ่งเป็นส่วนหนึ่งของ เรียวเมง สุคุนะ "ราชาคำสาป" 
+              เข้าไป ทำให้เขากลายเป็น "ภาชนะ" ของสุคุนะ ด้วยเหตุนี้ เขาจึงต้องเข้าสู่โลกของเหล่าผู้ใช้ไสยเวทเพื่อเรียนรู้วิธีต่อสู้กับ 
+              "วิญญาณคำสาป" และรวบรวมชิ้นส่วนคำสาปที่เหลือ
               <br />
               <div className='flex mt-14'>
-              <button className="ml-20 px-8 py-1 border border-white rounded-3xl text-white block">See More</button>
-              <FaGithub className='ml-25 w-11 h-11 text-4xl bg-black text-white ' />
-              <span className='ml-1 mt-3'>GitHub</span>
+              {/*<button className="ml-20 px-8 py-1 border border-white rounded-3xl text-white block">See More</button>*/}
+              <a href="https://www.google.com/search?q=https://www.netflix.com/th/title/81691129" className="ml-20 px-8 py-2 border-3 hover:underline hover:decoration-red-500 hover:decoration-3 border-red-500 rounded-4xl text-white block" target="_blank"> 
+              View netflix</a>
+
+              <a href="https://www.google.com/search?q=https://www.bilibili.tv/th/play/2099308" className="ml-20 px-8 py-2 border-3 hover:underline hover:decoration-blue-500 hover:decoration-3 border-blue-500 rounded-4xl text-white block" target="_blank"> 
+              View bilibili</a>
               </div>
             </div>
             
@@ -83,7 +78,7 @@ function Protfolio() {
           </div>
           <div className='flex items-center justify-center'>
             <div className='text-white mr-10 ml-10 mb-40'>
-              <img className='w-80 h-80' src={Ar} alt="" />
+              <img className='w-80 h-80' src={Gojo} alt="" />
             </div>
           </div>                   
         </div>
@@ -93,33 +88,27 @@ function Protfolio() {
         {/* รูปที่ 3 */}
         <div className='flex items-center justify-center '>
             <div className='text-white ml-20 mb-40'>
-                <img className='w-80 h-80' src={Ar} alt="" />
+                <img className='w-80 h-80' src={Aqua} alt="" />
             </div>
 
             {/* เนื้อหา 3 */}
           <div className="w-3/5 flex flex-col h-full ml-30 mb-20">
             <p className="text-xl font-semibold mb-6 leading-relaxed mr-50 text-white text-center">
-              Developer based in Thailand
+              KonoSuma
             </p>
 
             <div className='text-base leading-relaxed mt-6 mb-20 mr-10 text-white'>
-              Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Nesciunt rem odit labore unde nemo omnis sequi
-              hic sit laudantium repellendus recusandae vitae ea
-              laborum, ipsa nisi eos autem. Blanditiis consequuntur
-              velit nesciunt aperiam odit excepturi repellat libero in
-              enim praesentium! Ex dicta est suscipit ipsam
-              voluptate tempora voluptatum quam distinctio minus
-              saepe nobis nulla amet fugiat sit autem deserunt
-              asperiores vitae ea, libero sed! Libero fugit non,
-              placeat nulla quae odio asperiores ratione!
-              Accusantium placeat dolorem minus eos excepturi
-              modi.
+              คาซึมะ เด็กหนุ่มโอตาคุที่ตายอย่างน่าสมเพช ได้ถูกส่งไปเกิดใหม่ในโลกแฟนตาซีเพื่อปราบจอมมาร 
+              โดยมีสิทธิ์เลือกของวิเศษติดตัวไปหนึ่งอย่าง แต่เขากลับเลือกพา อควา เทพธิดาไร้ประโยชน์ที่คอยเยาะเย้ยเขาไปด้วย 
+              เรื่องราวในโลกใหม่ของเขาจึงไม่ได้เป็นฮีโร่ผู้กล้าหาญอย่างที่วาดฝัน แต่กลายเป็นชีวิตสุดวายป่วงที่เต็มไปด้วยปาร์ตี้สุดเพี้ยน 
+              ทั้งเทพธิดาไร้สติ (อควา), จอมเวทสายระเบิดคลั่ง (เมกุมิน), และอัศวินมาโซคิสม์ (ดาร์คเนส)
               <br />
               <div className='flex mt-14'>
-              <button className="ml-20 px-8 py-1 border border-white rounded-3xl text-white block">See More</button>
-              <FaGithub className='ml-25 w-11 h-11 text-4xl bg-black text-white ' />
-              <span className='ml-1 mt-3'>GitHub</span>
+             <a href="https://www.google.com/search?q=https://www.netflix.com/th/title/81691129" className="ml-20 px-8 py-2 border-3 hover:underline hover:decoration-red-500 hover:decoration-3 border-red-500 rounded-4xl text-white block" target="_blank"> 
+              View netflix</a>
+
+              <a href="https://www.google.com/search?q=https://www.bilibili.tv/th/play/2099308" className="ml-20 px-8 py-2 border-3 hover:underline hover:decoration-blue-500 hover:decoration-3 border-blue-500 rounded-4xl text-white block" target="_blank"> 
+              View bilibili</a>
               </div>
             </div>
           </div>               
@@ -131,27 +120,21 @@ function Protfolio() {
         <div className='flex items-center justify-center '>
           <div className="w-3/5 flex flex-col h-full ml-30 mb-20">
             <p className="text-xl font-semibold mb-6 leading-relaxed mr-50 text-white text-center">
-              Developer based in Thailand
+               SPY x farm
             </p>
             
             <div className='text-base leading-relaxed mt-6 mb-20 mr-10 text-white'>
-              Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Nesciunt rem odit labore unde nemo omnis sequi
-              hic sit laudantium repellendus recusandae vitae ea
-              laborum, ipsa nisi eos autem. Blanditiis consequuntur
-              velit nesciunt aperiam odit excepturi repellat libero in
-              enim praesentium! Ex dicta est suscipit ipsam
-              voluptate tempora voluptatum quam distinctio minus
-              saepe nobis nulla amet fugiat sit autem deserunt
-              asperiores vitae ea, libero sed! Libero fugit non,
-              placeat nulla quae odio asperiores ratione!
-              Accusantium placeat dolorem minus eos excepturi
-              modi.
+              "สนธยา" สุดยอดสายลับต้องสร้างครอบครัวปลอมๆ เพื่อปฏิบัติภารกิจลับระดับชาติ เขาจึงรับเลี้ยง อาเนีย 
+              เด็กหญิงที่มีความสามารถพิเศษในการอ่านใจคน และแต่งงานกับ ยอร์ นักฆ่ามือฉมังที่แอบซ่อนตัวตน 
+              ทั้งสามคนต่างมี ความลับ ที่ปกปิดซึ่งกันและกัน และพยายามใช้ชีวิตเป็นครอบครัวปกติสุดป่วน 
+              โดยที่ไม่มีใครรู้ตัวตนที่แท้จริงของอีกฝ่ายเลย
               <br />
               <div className='flex mt-14'>
-              <button className="ml-20 px-8 py-1 border border-white rounded-3xl text-white block">See More</button>
-              <FaGithub className='ml-25 w-11 h-11 text-4xl bg-black text-white ' />
-              <span className='ml-1 mt-3'>GitHub</span>
+               <a href="https://www.google.com/search?q=https://www.netflix.com/th/title/81691129" className="ml-20 px-8 py-2 border-3 hover:underline hover:decoration-red-500 hover:decoration-3 border-red-500 rounded-4xl text-white block" target="_blank"> 
+              View netflix</a>
+
+              <a href="https://www.google.com/search?q=https://www.bilibili.tv/th/play/2099308" className="ml-20 px-8 py-2 border-3 hover:underline hover:decoration-blue-500 hover:decoration-3 border-blue-500 rounded-4xl text-white block" target="_blank"> 
+              View bilibili</a>
               </div>
             </div>
           </div>
@@ -159,7 +142,7 @@ function Protfolio() {
           {/* รูปที่ 4 */}
           <div className='flex items-center justify-center'>
             <div className='text-white mr-10 ml-10 mb-40'>
-              <img className='w-80 h-80' src={Ar} alt="" />
+              <img className='w-80 h-80' src={Arr} alt="" />
             </div>
           </div>                   
         </div>
